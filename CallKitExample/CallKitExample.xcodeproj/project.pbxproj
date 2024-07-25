@@ -11,6 +11,7 @@
 		2C0FAA4F2C526603003C7642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FAA4E2C526603003C7642 /* ContentView.swift */; };
 		2C0FAA512C526603003C7642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0FAA502C526603003C7642 /* Assets.xcassets */; };
 		2C0FAA542C526603003C7642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0FAA532C526603003C7642 /* Preview Assets.xcassets */; };
+		2C0FAA5B2C526680003C7642 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0FAA5A2C526680003C7642 /* CallManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		2C0FAA4E2C526603003C7642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C0FAA502C526603003C7642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C0FAA532C526603003C7642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C0FAA5A2C526680003C7642 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		2C0FAA5C2C52672A003C7642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +54,12 @@
 		2C0FAA4B2C526603003C7642 /* CallKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				2C0FAA5C2C52672A003C7642 /* Info.plist */,
 				2C0FAA4C2C526603003C7642 /* CallKitExampleApp.swift */,
 				2C0FAA4E2C526603003C7642 /* ContentView.swift */,
 				2C0FAA502C526603003C7642 /* Assets.xcassets */,
 				2C0FAA522C526603003C7642 /* Preview Content */,
+				2C0FAA5A2C526680003C7642 /* CallManager.swift */,
 			);
 			path = CallKitExample;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0FAA5B2C526680003C7642 /* CallManager.swift in Sources */,
 				2C0FAA4F2C526603003C7642 /* ContentView.swift in Sources */,
 				2C0FAA4D2C526603003C7642 /* CallKitExampleApp.swift in Sources */,
 			);
@@ -275,6 +281,8 @@
 				DEVELOPMENT_TEAM = 826696Y524;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallKitExample/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow App to Access Microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +312,8 @@
 				DEVELOPMENT_TEAM = 826696Y524;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallKitExample/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Allow App to Access Microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
